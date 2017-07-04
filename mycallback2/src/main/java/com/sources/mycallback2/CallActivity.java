@@ -2,6 +2,7 @@ package com.sources.mycallback2;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 /**
  * Created by Handsome-Chen on 2017/7/4 0004.
@@ -17,7 +18,7 @@ public class CallActivity extends Activity {
         mMainActivity.getCallbackListener(new MainActivity.CallbackListener() {
             @Override
             public void callback() {
-                
+                Toast.makeText(CallActivity.this,"显示toast",Toast.LENGTH_SHORT).show();
             }
         });
     }

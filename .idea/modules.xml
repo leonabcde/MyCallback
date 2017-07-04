@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyCallback.iml" filepath="$PROJECT_DIR$/MyCallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycallback2/mycallback2.iml" filepath="$PROJECT_DIR$/mycallback2/mycallback2.iml" />
     </modules>
   </component>
 </project>

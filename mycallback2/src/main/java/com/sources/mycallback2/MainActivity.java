@@ -18,4 +18,13 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this, "dyhghjgy", Toast.LENGTH_SHORT).show();
         Toast.makeText(MainActivity.this, "dyhghjgy", Toast.LENGTH_SHORT).show();
     }
+
+
+    private CallbackListener mCallbackListener;
+    public void getCallbackListener(CallbackListener listener){
+        this.mCallbackListener = listener;
+    }
+    public interface CallbackListener{
+        void callback();
+    }
 }
